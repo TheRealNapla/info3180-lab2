@@ -1,3 +1,73 @@
 body {
     padding-top: 5rem;
 }
+
+.profile-card{
+    border: 1px solid #656565;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+}
+.head-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e5e4e2;
+    background: #4392F1;
+}
+
+.head-container img{
+    padding-top: 2rem;
+    width: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    color: #656565;
+}
+
+.container .profile-bio{
+    width: 400px;
+}
+
+.container .statistics-section{
+    display: flex;
+    align-items: center;
+    gap:2.7rem;
+}
+
+.container .statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistic-count{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.follow-btn{
+    padding: 1rem 4rem 1rem 4rem;
+    color: #e5e4e2;
+    font-weight: bold;
+    background: #0d6efd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
